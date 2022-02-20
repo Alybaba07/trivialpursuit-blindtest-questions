@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+
+ <title>Trivial Pursuit</title>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <header>
+ 
+  <nav>
+   <ul>
+    <li id="logo"><a href="https://alybaba07.github.io/trivialpursuit/">Accueil</a></li>
+   </ul>
+  </nav>
+	  
+  <div id="imagePrincipale">
+  <h1>Questions</h1>
+  </div>
+</header>
+
+<section id="Question">
+<textarea id="tt" size="63%"></textarea>
+<input type="button" value="Random" id="bouton" onClick="populate();">
+<script type="text/javascript" charset="utf-8">
+function populate () {
+    var obj=document.getElementById("tt" ),
+    aleatoire=Math.floor(Math.random()*25);
+    switch(aleatoire){
+    case 0:obj.value="https://www.youtube.com/watch?v=vV3l_1j8pPE";break;
+    case 1:obj.value="https://www.youtube.com/watch?v=MCYm453CE6Y";break;
+    case 2:obj.value="https://www.youtube.com/watch?v=cRA5gsdCf4c";break;
+    case 3:obj.value="https://www.youtube.com/watch?v=YcwdjuQ3UR4";break;
+    case 4:obj.value="https://www.youtube.com/watch?v=5u3RGhznctE";break;
+	case 5:obj.value="https://www.youtube.com/watch?v=wy60nLyTUY4";break;
+	case 6:obj.value="https://www.youtube.com/watch?v=kIwmrk7LoDk";break;
+	case 7:obj.value="https://www.youtube.com/watch?v=ojPKvzQdo7k";break;
+	case 8:obj.value="https://www.youtube.com/watch?v=G8CFuZ9MseQ";break;
+	case 9:obj.value="https://www.youtube.com/watch?v=jIgRPYpT_so";break;
+	case 10:obj.value="https://www.youtube.com/watch?v=RhhBycvmIHU";break;
+	case 11:obj.value="https://www.youtube.com/watch?v=CwzrG0j2aJ4";break;
+	case 12:obj.value="https://www.youtube.com/watch?v=Turf7WDB3iY";break;
+	case 13:obj.value="https://www.youtube.com/watch?v=nU21rCWkuJw";break;
+	case 14:obj.value="2:15 à 2:35 https://www.youtube.com/watch?v=RFnazAsMOQI";break;
+	case 15:obj.value="https://www.youtube.com/watch?v=MLx_Yc02QB8";break;
+	case 16:obj.value="https://www.youtube.com/watch?v=geE49ne2mQg";break;
+	case 17:obj.value="https://www.youtube.com/watch?v=Ua5UARWRYLA";break;
+	case 18:obj.value="https://www.youtube.com/watch?v=l2kwie-gs2o";break;
+	case 19:obj.value="https://www.youtube.com/watch?v=-ofxSC9bhy4";break;
+    }
+}
+</script>
+</section>
+ <section id="Categories">
+
+<div id="Liste">
+<div class="imagesListe">
+<img src="media/Questions.jpg" alt="Yuji Itadori"></a>
+</div>
+</section>
+
+<footer>
+<div id="deuxièmeTrait"></div>
+<div id="copyright">
+<span>©Alybaba 2022</span>
+</div>
+
+</footer>
+</body>
+
+</html>
